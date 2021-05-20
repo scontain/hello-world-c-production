@@ -7,5 +7,5 @@ echo "Run sconified image..." && \
 docker run -it --rm "${MOUNT_SGXDEVICE}" \
 -eSCONE_VERSION=1 \
 -eSCONE_MODE=hw \
--eSCONE_LOG="4" \
+-eSCONE_LOG="ERROR" \
 hello-world-c-scone-production /app/hello-world
